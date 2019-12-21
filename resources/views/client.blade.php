@@ -20,9 +20,9 @@
     <div class="card-body">
     <form action="{{url('/clients')}}" method='post'> 
         @csrf
-        <input class="form-control" name="title" placeholder="Message Title" type="text" required>
+        <input class="form-control" name="title" placeholder="Notification Title" type="text" required>
         <br>
-        <textarea class="form-control" rows="5" name="message" placeholder="Message Body" type="text" required></textarea>
+        <textarea class="form-control" rows="5" name="message" placeholder="Notification Body" type="text" required></textarea>
         <br>
     </div>
     <div class="card-footer text-center">
