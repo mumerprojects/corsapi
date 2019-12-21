@@ -49,12 +49,14 @@ class ClientController extends Controller
     $title = $request->title;
     $message = $request->message;
     $response = $this->sendMessage($title,$message);
-	$return["allresponses"] = $response;
-	$return = json_encode( $return);
+	\Session::flash('Notification_Success', 'Broadcast Notification is sent');
+	return back();
+	//$return["allresponses"] = $response;
+	//$return = json_encode( $return);
 	
-	print("\n\nJSON received:\n");
-	print($return);
-	print("\n");   
+	//print("\n\nJSON received:\n");
+	//print($return);
+	//print("\n");   
     //return ('title is : '.$title.' and msg is : '.$message);
 
     }
