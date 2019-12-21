@@ -18,7 +18,7 @@
 @endif
 <div class="container vh-100">
     <div class="align-content-center d-flex row vh-100">
-        <div class="col-md-6 offset-0">
+        <div class="col-md-6 offset-md-3">
         <div class="card">
     <div class="card-header bg-success">
     <h3 class="font-weight-bold text-center text-white">Broadcast Push Notification</h3>
