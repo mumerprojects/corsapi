@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::resource('clients','ClientController');
+
+// Route::post('clients/add-Cart','ClientController@method_name');
